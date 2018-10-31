@@ -6,7 +6,7 @@
 using namespace std;
 
 struct node{
-
+	//What has to be placed in the node structure?
 }
 
 
@@ -24,7 +24,9 @@ do{
 	cout << "4. Edut a node\n";
 	cout << "5. Delete a node\n";
 	cout << "6. Search the linked list\n";
+	cout << "7. EXIT\n";
 	cin >> input;
+	cout << endl;
 
 	switch(input){
 		case 1:{
